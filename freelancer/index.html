@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Freelancer</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Montserrat:wght@400;500;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	
+	<svg style="display: none;">
+
+		<symbol id="facebook" viewBox="0 0 24 24" >
+			<g>
+				<path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"/>
+			</g>
+		</symbol>
+
+		<symbol id="twitter" viewBox="0 0 512 512" >
+			<g>
+					<path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
+				c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
+				c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
+				c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152
+				c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792
+				c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44
+				C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568
+				C480.224,136.96,497.728,118.496,512,97.248z"/>
+			</g>
+		</symbol>
+
+		<symbol id="arrow" viewBox="0 0 268.832 268.832" >
+			<g>
+					<path d="M265.171,125.577l-80-80c-4.881-4.881-12.797-4.881-17.678,0c-4.882,4.882-4.882,12.796,0,17.678l58.661,58.661H12.5
+				c-6.903,0-12.5,5.597-12.5,12.5c0,6.902,5.597,12.5,12.5,12.5h213.654l-58.659,58.661c-4.882,4.882-4.882,12.796,0,17.678
+				c2.44,2.439,5.64,3.661,8.839,3.661s6.398-1.222,8.839-3.661l79.998-80C270.053,138.373,270.053,130.459,265.171,125.577z"/>
+			</g>
+		</symbol>
+
+		<symbol id="instagram" viewBox="0 0 512 512" >
+			<g>
+				<path d="m108.369 174.341c6.893-10.923 14.993-21.069 24.25-30.326 16.015-16.015 34.672-28.592 55.453-37.382 21.531-9.107 44.385-13.724 67.927-13.724s46.396 4.618 67.927 13.724c20.781 8.79 39.439 21.367 55.453 37.382 9.257 9.257 17.358 19.403 24.25 30.326h108.371v-67.442c0-58.945-47.954-106.899-106.898-106.899h-298.204c-58.944 0-106.898 47.954-106.898 106.898v67.442h108.369zm331.778-72.194h-30v-30h30z"/><path d="m418.728 204.341c7.8 20.095 11.758 41.279 11.758 63.055 0 23.542-4.617 46.396-13.724 67.927-8.79 20.781-21.367 39.439-37.382 55.453-16.015 16.015-34.672 28.592-55.453 37.382-21.531 9.107-44.385 13.724-67.927 13.724s-46.396-4.618-67.927-13.724c-20.781-8.79-39.439-21.367-55.453-37.382-16.015-16.015-28.592-34.672-37.382-55.453-9.107-21.531-13.724-44.385-13.724-67.927 0-21.775 3.959-42.96 11.758-63.055h-93.272v200.761c0 58.944 47.954 106.898 106.898 106.898h298.203c58.945 0 106.899-47.954 106.899-106.898v-200.761z"/><path d="m256 206.277c-33.7 0-61.118 27.418-61.118 61.118s27.418 61.118 61.118 61.118 61.118-27.417 61.118-61.117-27.418-61.119-61.118-61.119z"/><path d="m256 122.909c-79.798 0-144.486 64.689-144.486 144.486s64.688 144.487 144.486 144.487 144.486-64.689 144.486-144.486-64.688-144.487-144.486-144.487zm91.118 144.487c0 50.242-40.875 91.117-91.118 91.117s-91.118-40.875-91.118-91.117c0-50.243 40.875-91.118 91.118-91.118s91.118 40.874 91.118 91.118z"/>
+			</g>
+		</symbol>
+
+		<symbol id="google" viewBox="0 0 96.828 96.827" >
+			<g>
+					<path d="M62.617,0H39.525c-10.29,0-17.413,2.256-23.824,7.552c-5.042,4.35-8.051,10.672-8.051,16.912
+				c0,9.614,7.33,19.831,20.913,19.831c1.306,0,2.752-0.134,4.028-0.253l-0.188,0.457c-0.546,1.308-1.063,2.542-1.063,4.468
+				c0,3.75,1.809,6.063,3.558,8.298l0.22,0.283l-0.391,0.027c-5.609,0.384-16.049,1.1-23.675,5.787
+				c-9.007,5.355-9.707,13.145-9.707,15.404c0,8.988,8.376,18.06,27.09,18.06c21.76,0,33.146-12.005,33.146-23.863
+				c0.002-8.771-5.141-13.101-10.6-17.698l-4.605-3.582c-1.423-1.179-3.195-2.646-3.195-5.364c0-2.672,1.772-4.436,3.336-5.992
+				l0.163-0.165c4.973-3.917,10.609-8.358,10.609-17.964c0-9.658-6.035-14.649-8.937-17.048h7.663c0.094,0,0.188-0.026,0.266-0.077
+				l6.601-4.15c0.188-0.119,0.276-0.348,0.214-0.562C63.037,0.147,62.839,0,62.617,0z M34.614,91.535
+				c-13.264,0-22.176-6.195-22.176-15.416c0-6.021,3.645-10.396,10.824-12.997c5.749-1.935,13.17-2.031,13.244-2.031
+				c1.257,0,1.889,0,2.893,0.126c9.281,6.605,13.743,10.073,13.743,16.678C53.141,86.309,46.041,91.535,34.614,91.535z
+				 M34.489,40.756c-11.132,0-15.752-14.633-15.752-22.468c0-3.984,0.906-7.042,2.77-9.351c2.023-2.531,5.487-4.166,8.825-4.166
+				c10.221,0,15.873,13.738,15.873,23.233c0,1.498,0,6.055-3.148,9.22C40.94,39.337,37.497,40.756,34.489,40.756z"/>
+
+					<path d="M94.982,45.223H82.814V33.098c0-0.276-0.225-0.5-0.5-0.5H77.08c-0.276,0-0.5,0.224-0.5,0.5v12.125H64.473
+				c-0.276,0-0.5,0.224-0.5,0.5v5.304c0,0.275,0.224,0.5,0.5,0.5H76.58V63.73c0,0.275,0.224,0.5,0.5,0.5h5.234
+				c0.275,0,0.5-0.225,0.5-0.5V51.525h12.168c0.276,0,0.5-0.223,0.5-0.5v-5.302C95.482,45.446,95.259,45.223,94.982,45.223z"/>
+			</g>
+		</symbol>
+
+	</svg>
+
+	<div class="page">
+		
+		<header class="header">
+			<div class="container">
+				<div class="header__row">
+					<div class="header__logo"><span>Freelancer</span></div>
+					<div class="header__content">
+						<ul class="header__list">
+							<li><a href="" class="header__link">about</a></li>
+							<li><a href="" class="header__link">work</a></li>
+							<li><a href="" class="header__link">portfolio</a></li>
+							<li><a href="" class="header__link">contact</a></li>
+						</ul>
+						<div class="header__social social">
+								
+								<a href="" class="social__link">
+									<svg class="social__icon">
+										<use xlink:href="#twitter"></use>
+									</svg>
+								</a>
+
+								<a href="" class="social__link">
+									<svg class="social__icon">
+										<use xlink:href="#facebook"></use>
+									</svg>
+								</a>
+					
+						</div>
+					</div>
+					<div class="header__burger"><span></span></div>
+				</div><!-- header__row -->
+			</div><!-- container -->
+		</header>
+
+		<div class="intro">
+			<div class="container">
+				<div class="intro__content">
+					<div class="intro__title">intelligence <br> is nothing without <br> ambition<span>.</span></div>
+					<div class="intro__text">We’re small but impressive creative agency.</div>
+					<a href="" class="intro__btn">read more</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="content">
+			<div class="container">
+				<div class="content__row">
+
+					<div class="content__item">
+						<div class="content__title">Peace<br>of Mind<span>.</span></div>
+						<div class="content__text">You’re safe with us. The privacy and security of your financial information is our top priority.</div>
+						<div class="content__btn">
+							<a href="" class="content__link">More</a>
+							<a href="" class="social__link">
+									<svg class="social__icon">
+										<use xlink:href="#arrow"></use>
+									</svg>
+								</a>
+						</div>
+					</div>
+
+					<div class="content__item">
+						<div class="content__title">Free<span>.</span><br>Actually free</div>
+						<div class="content__text">No more pricing grids. No more fine print. Sending and receiving cash is free without gimmicks.</div>
+						<div class="content__btn">
+							<a href="" class="content__link">More</a>
+							<a href="" class="social__link">
+									<svg class="social__icon">
+										<use xlink:href="#arrow"></use>
+									</svg>
+								</a>
+						</div>
+					</div>
+
+					<div class="content__item">
+						<div class="content__title">Simple<br>payments<span>.</span></div>
+						<div class="content__text">The same debit card you use to buy coffee lets deposit money straight to your bank account.</div>
+						<div class="content__btn">
+							<a href="" class="content__link">More</a>
+							<a href="" class="social__link">
+									<svg class="social__icon">
+										<use xlink:href="#arrow"></use>
+									</svg>
+								</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="portfolio">
+			<div class="container">
+				<div class="portfolio__row">
+					<div class="portfolio__photo">
+						<img src="img/portfolio/macbook.jpg" alt="">
+					</div>
+					<div class="portfolio__content">
+						<div class="portfolio__title">portfolio<span>.</span></div>
+						<div class="portfolio__subtitle">We are small, but strong team</div>
+						<div class="portfolio__text">
+							<p>No more pricing grids. No more fine print. Sending and receiving cash is free without gimmicks.</p>
+							<p>The same debit card you use to buy coffee lets deposit money straight to your bank account.</p>
+						</div>
+						<div class="portfolio__btn">
+							<a href="" class="portfolio__link">More</a>
+							<a href="" class="social__link">
+									<svg class="social__icon">
+										<use xlink:href="#arrow"></use>
+									</svg>
+								</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="team">
+			<div class="container">
+				<div class="team__title">Our team<span>.</span></div>
+				<div class="team__subtitle">They are big but still friendly.</div>
+				<div class="team__row">
+
+					<div class="team__item">
+						<img src="img/team/01.png" class="team__photo"></img>
+						<div class="team__info">
+							<div class="team__name">Joey</div>
+							<div class="team__position">Web developer</div>
+							<div class="team__text">Coffee lover.  Always on bike. iPhone fan.</div>
+						</div>
+					</div>
+
+					<div class="team__item">
+						<img src="img/team/02.png" class="team__photo"></img>
+						<div class="team__info">
+							<div class="team__name">Matt</div>
+							<div class="team__position">Web designer</div>
+							<div class="team__text">MTB Biker. Photoshop Master. Loving Father.</div>
+						</div>
+					</div>
+
+					<div class="team__item">
+						<img src="img/team/03.png" class="team__photo"></img>
+						<div class="team__info">
+							<div class="team__name">Mike</div>
+							<div class="team__position">Copywriter</div>
+							<div class="team__text">Drummer. Soup lover. Beer Drinker. Cyclist.</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="team__btn">
+					<a href="" class="team__link">More</a>
+							<a href="" class="social__link">
+									<svg class="social__icon">
+										<use xlink:href="#arrow"></use>
+									</svg>
+								</a>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__row">
+					<div class="footer__social social">
+
+								<a href="" class="social__link">
+									<svg class="social__icon">
+										<use xlink:href="#twitter"></use>
+									</svg>
+								</a>
+
+								<a href="" class="social__link">
+									<svg class="social__icon">
+										<use xlink:href="#instagram"></use>
+									</svg>
+								</a>
+
+								<a href="" class="social__link">
+									<svg class="social__icon">
+										<use xlink:href="#facebook"></use>
+									</svg>
+								</a>
+
+								<a href="" class="social__link">
+									<svg class="social__icon">
+										<use xlink:href="#google"></use>
+									</svg>
+								</a>
+
+					</div>
+					<div class="footer__copyright">
+						© Freelancer - Designed by Wojtek Kwiatkowski
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
